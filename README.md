@@ -1,6 +1,6 @@
 # Pedidu API
 
-## Installation
+## Instalação:
 
 Comando 1 `npm i whatsapp-web.js`
 
