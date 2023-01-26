@@ -85,8 +85,20 @@ GET /api/ibge_search
 ```
 ```
 {
-    "ibge_id": 3300308, 
-    "ibge_name": "Barra do Piraí" 
+    "ibge_id": 3300258, 
+    "ibge_name": "Arraial do Cabo" 
+}
+```
+#### Retorno 
+```
+{
+    "municipios": [
+        {
+            "id": 1,
+            "ibge_id": "3300258",
+            "ibge_name": "Arraial do Cabo"
+        },
+    ]
 }
 ```
 > OBS: Não é necessário buscar por ibge_id ou ibge_name completo, más mantém a busca mais acertiva colocando os dois parametros corretamente.
