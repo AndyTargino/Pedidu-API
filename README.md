@@ -20,7 +20,6 @@ PRODUTOS
 </h1>
 
 ### Criar um produto
-
 ```
 POST /api/product_create
 ```
@@ -34,6 +33,7 @@ POST /api/product_create
 ```
 
 
+
 ### Deletar um produto
 ```
 DELETE /api/product_detele
@@ -43,6 +43,7 @@ DELETE /api/product_detele
     "id": 1, 
 }
 ```
+
 
 
 ### Atualizar um produto
@@ -61,10 +62,12 @@ POST /api/product_update
 #### OBS: Não é necessário todos os campos para atualização, apenas o ID é obrigatório.
 
 
+
 ### Listar todos os produtos
 ```
 GET /api/product_show
 ```
+
 
 
 <h1 align="center">
