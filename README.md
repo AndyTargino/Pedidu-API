@@ -96,4 +96,21 @@ GET /api/ibge_search
 ```
 GET /api/ibge_show
 ```
+#### Retorno 
+```
+{
+    "municipios": [
+        {
+            "id": 1,
+            "ibge_id": "3300258",
+            "ibge_name": "Arraial do Cabo"
+        },
+        {
+            "id": 2,
+            "ibge_id": "3300704",
+            "ibge_name": "Cabo Frio"
+        },
+    ]
+}
+```
 
