@@ -13,7 +13,7 @@ OBS: Necessário PHP ^7.4
 ## Example usage
 
 
-Criar um produto
+## Criar um produto
 ```
 POST /api/product_create
 ```
@@ -26,7 +26,7 @@ POST /api/product_create
 }
 ```
 
-Deletar um produto
+## Deletar um produto
 ```
 DELETE /api/product_detele
 ```
@@ -37,7 +37,7 @@ DELETE /api/product_detele
 ```
 
 
-Atualizar um produto
+## Atualizar um produto
 ```
 POST /api/product_update
 ```
@@ -51,7 +51,7 @@ POST /api/product_update
 }
 ```
 
-Listar todos os produtos
+## Listar todos os produtos
 ```
 GET /api/product_show
 ```
