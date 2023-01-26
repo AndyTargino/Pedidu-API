@@ -12,6 +12,8 @@ Comando 3 `npm i whatsapp-web.js`
 
 > OBS: Necessário PHP ^7.4
 
+> Para facilitar o uso da API, foi disponibilizado um arquivo API_Pedidu.postman com todos os testes já salvos para uso dentro do POSTMAN.
+
 ## Exemplo de uso da aplicação
 
 
