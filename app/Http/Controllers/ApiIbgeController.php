@@ -33,7 +33,7 @@ class ApiIbgeController extends Controller
     }
 
 
-    public function show(Request $request) // Faz a listagem dos produtos existentes no banco
+    public function search(Request $request) // Faz a listagem dos produtos existentes no banco
     {
 
         try {
@@ -65,6 +65,19 @@ class ApiIbgeController extends Controller
             }
         } catch (Exception $e) {
             return ApiIbgeController::appError(`An error occurred when generating municipality: {$e}`);
+        }
+    }
+
+    public function show() // Faz a listagem dos produtos existentes no banco
+    {
+        try {
+            $show = Municipalities::get();
+            if (count($show) == 0) // Se não existir produtos, retornar mensagem de erro
+                return ApiIbgeController::appError('There are no saved municipalities to list');
+            else
+                return  response()->json(['municipios' => $show], 200);
+        } catch (Exception $e) {
+            return ApiIbgeController::appError(`An error occurred when listing products: {$e}`);
         }
     }
 }

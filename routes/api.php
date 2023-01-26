@@ -29,4 +29,5 @@ Route::delete('/product_delete',  [ApiController::class, 'delete']);
 Route::get('/product_show',  [ApiController::class, 'show']);
 
 // Busca IBGE
+Route::get('/ibge_search', [ApiIbgeController::class, 'search']);
 Route::get('/ibge_show', [ApiIbgeController::class, 'show']);

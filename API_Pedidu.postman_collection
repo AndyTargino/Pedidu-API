@@ -147,13 +147,36 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"ibge_id\": null, \r\n    \"ibge_name\": \"Armação\" \r\n}\r\n",
+							"raw": "{\r\n    \"ibge_id\": null, \r\n    \"ibge_name\": \"São Gonçalo\" \r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/ibge_search",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"ibge_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show all minicipalities",
+					"request": {
+						"method": "GET",
+						"header": [],
 						"url": {
 							"raw": "http://127.0.0.1:8000/api/ibge_show",
 							"protocol": "http",
