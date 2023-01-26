@@ -8,12 +8,12 @@ Comando 2 `npm i whatsapp-web.js`
 
 Comando 3 `npm i whatsapp-web.js`
 
-OBS: Necessário PHP ^7.4
+#### BASE_URL: http://127.0.0.1:8000
+
+### OBS: Necessário PHP ^7.4
 
 ## Exemplo de uso da aplicação
 
-
-#### BASE_URL: http://127.0.0.1:8000
 
 <h1 align="center">
 PRODUTOS
