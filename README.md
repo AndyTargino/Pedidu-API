@@ -28,7 +28,33 @@ PRODUTOS
 ```
 GET /api/product_show
 ```
-
+#### Retorno
+```
+{
+    "products": [
+        {
+            "id": 7,
+            "name": "Notebook",
+            "category": "Eletronicos",
+            "status": "ACTIVE",
+            "quantity": 155,
+            "created_at": "2023-01-25T23:26:47.000000Z",
+            "updated_at": "2023-01-26T17:59:17.000000Z",
+            "deleted_at": null
+        },
+        {
+            "id": 10,
+            "name": "Cadeira",
+            "category": "Moveis",
+            "status": "ACTIVE",
+            "quantity": 10,
+            "created_at": "2023-01-26T20:25:47.000000Z",
+            "updated_at": "2023-01-26T20:25:47.000000Z",
+            "deleted_at": null
+        }
+    ]
+}
+```
 
 
 ### Criar um produto
