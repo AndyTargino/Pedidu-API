@@ -8,9 +8,9 @@ Comando 2 `npm i whatsapp-web.js`
 
 Comando 3 `npm i whatsapp-web.js`
 
-#### BASE_URL: http://127.0.0.1:8000
+> BASE_URL: http://127.0.0.1:8000
 
-#### OBS: Necessário PHP ^7.4
+> OBS: Necessário PHP ^7.4
 
 ## Exemplo de uso da aplicação
 
@@ -59,7 +59,7 @@ POST /api/product_update
     "quantity": 155
 }
 ```
-#### OBS: Não é necessário todos os campos para atualização, apenas o ID é obrigatório.
+> OBS: Não é necessário todos os campos para atualização, apenas o ID é obrigatório.
 
 
 
@@ -83,4 +83,4 @@ GET /api/ibge_show
     "ibge_name": "Barra do Piraí" 
 }
 ```
-#### OBS: Não é necessário buscar por ibge_id ou ibge_name completo, más mantém a busca mais acertiva colocando os dois parametros corretamente.
+> OBS: Não é necessário buscar por ibge_id ou ibge_name completo, más mantém a busca mais acertiva colocando os dois parametros corretamente.
