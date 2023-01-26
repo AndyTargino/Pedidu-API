@@ -12,8 +12,12 @@ OBS: Necessário PHP ^7.4
 
 ## Exemplo de uso
 
+<h1 align="center">
+PRODUTOS
+</h1>
 
 ### Criar um produto
+
 ```
 POST /api/product_create
 ```
@@ -55,6 +59,8 @@ POST /api/product_update
 ```
 GET /api/product_show
 ```
+
+## Supported features
 
 Take a look at [example.js](https://github.com/pedroslopez/whatsapp-web.js/blob/master/example.js) for another example with more use cases.
 
