@@ -10,7 +10,7 @@ Comando 3 `npm i whatsapp-web.js`
 
 OBS: Necessário PHP ^7.4
 
-## Example usage
+## Exemplo de uso
 
 
 ### Criar um produto
