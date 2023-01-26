@@ -32,6 +32,9 @@ Deletar um produto
 
 Atualizar um produto
 ```
+/api/product_update
+```
+```
 {
     "id": 1, 
     "name": "Notebook",
