@@ -15,6 +15,9 @@ OBS: Necessário PHP ^7.4
 
 Criar um produto
 ```
+POST /api/product_create
+```
+```
 {
     "name": "Notebook",
     "category": "Eletronicos",
@@ -25,14 +28,18 @@ Criar um produto
 
 Deletar um produto
 ```
+DELETE /api/product_detele
+```
+```
 {
     "id": 1, 
 }
 ```
 
+
 Atualizar um produto
 ```
-/api/product_update
+POST /api/product_update
 ```
 ```
 {
@@ -42,6 +49,11 @@ Atualizar um produto
     "status": "ACTIVE",
     "quantity": 155
 }
+```
+
+Listar todos os produtos
+```
+GET /api/product_show
 ```
 
 Take a look at [example.js](https://github.com/pedroslopez/whatsapp-web.js/blob/master/example.js) for another example with more use cases.
