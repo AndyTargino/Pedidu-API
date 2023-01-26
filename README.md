@@ -79,8 +79,9 @@ POST /api/product_update
 IBGE
 </h1>
 
+### Buscar municipio
 ```
-GET /api/ibge_show
+GET /api/ibge_search
 ```
 ```
 {
@@ -89,3 +90,10 @@ GET /api/ibge_show
 }
 ```
 > OBS: Não é necessário buscar por ibge_id ou ibge_name completo, más mantém a busca mais acertiva colocando os dois parametros corretamente.
+
+
+### Listar todos cadastrados
+```
+GET /api/ibge_show
+```
+
