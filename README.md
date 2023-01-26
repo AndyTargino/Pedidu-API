@@ -2,11 +2,15 @@
 
 ## Instalação:
 
-Comando 1 `npm i whatsapp-web.js`
+Na raiz do projeto, abra o terminal e cole o comando: `composer install`
 
-Comando 2 `npm i whatsapp-web.js`
+Após, configure seu arquivo .ENV com as credenciais do seu MYSQL (E crie seu banco de dados)
 
-Comando 3 `npm i whatsapp-web.js`
+Execute a migrate do seu projeto: `php artisan migrate`
+
+Crie uma key para o seu projeto: `php artisan key:generate`
+
+Inicie o servidor da sua aplicação: `php artisan serve`
 
 > BASE_URL: http://127.0.0.1:8000
 
