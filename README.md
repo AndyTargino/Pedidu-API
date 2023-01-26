@@ -12,6 +12,9 @@ OBS: Necessário PHP ^7.4
 
 ## Exemplo de uso da aplicação
 
+
+#### BASE_URL: http://127.0.0.1:8000
+
 <h1 align="center">
 PRODUTOS
 </h1>
