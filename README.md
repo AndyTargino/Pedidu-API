@@ -14,7 +14,7 @@ Inicie o servidor da sua aplicação: `php artisan serve`
 
 > BASE_URL: http://127.0.0.1:8000
 
-> OBS: Necessário PHP ^7.4
+> OBS: Necessário PHP +7.4
 
 > Para facilitar o uso da API, foi disponibilizado um arquivo Pedidu.postman com todos os testes já salvos para uso dentro do POSTMAN.
 > 
